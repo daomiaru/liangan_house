@@ -1,0 +1,125 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "凉安租房",
+				"usingComponents": {
+					"van-search": "/wxcomponents/vant/search/index",
+					"van-popup": "/wxcomponents/vant/popup/index",
+					"van-area": "/wxcomponents/vant/area/index"
+				}
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {}
+		},
+
+		{
+			"path": "pages/goodHouse/goodHouse",
+			"style": {}
+		},
+
+		{
+			"path": "pages/productList/productList",
+			"style": {}
+		},
+		{
+			"path": "pages/rentalHouse/rentalHouse",
+			"style": {}
+		},
+
+		{
+			"path": "pages/rentalHouse/viewfrom/viewfrom",
+			"style": {}
+		},
+		{
+			"path": "pages/rentalHouse/datafrom/datafrom",
+			"style": {}
+		},
+
+		{
+			"path": "pages/rentalHouse/photofrom/photofrom",
+			"style": {}
+		},
+		{
+			"path": "pages/rentalHouse/infofrom/infofrom",
+			"style": {}
+		},
+
+		{
+			"path": "pages/rentalHouse/adressfrom/adressfrom",
+			"style": {}
+		},
+
+		{
+			"path": "pages/beingCustodian/beingCustodian",
+			"style": {}
+		},
+
+		{
+			"path": "pages/myInfo/myInfo",
+			"style": {}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {}
+		},
+
+		{
+			"path": "pages/login/forget",
+			"style": {}
+		}, {
+			"path": "pages/login/register",
+			"style": {}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {}
+		},
+		{
+			"path": "pages/im-chat/im-list",
+			"style": {}
+		},
+		{
+			"path": "pages/im-chat/im-chat",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-selected.png"
+			},
+			{
+				"pagePath": "pages/im-chat/im-list",
+				"text": "消息",
+				"iconPath": "static/images/message.png",
+				"selectedIconPath": "static/images/message-selected.png"
+			},
+			{
+				"pagePath": "pages/goodHouse/goodHouse",
+				"text": "我的房源",
+				"iconPath": "static/images/house.png",
+				"selectedIconPath": "static/images/house-selected.png"
+			},
+			{
+				"pagePath": "pages/myInfo/myInfo",
+				"text": "我的",
+				"iconPath": "static/images/myInfo.png",
+				"selectedIconPath": "static/images/myInfo-selected.png"
+			}
+		],
+		"selectedColor": "#1296db"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "凉安租房",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

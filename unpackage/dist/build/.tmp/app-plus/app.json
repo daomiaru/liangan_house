@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/goodHouse/goodHouse",
+    "pages/productList/productList",
+    "pages/rentalHouse/rentalHouse",
+    "pages/rentalHouse/viewfrom/viewfrom",
+    "pages/rentalHouse/datafrom/datafrom",
+    "pages/rentalHouse/photofrom/photofrom",
+    "pages/rentalHouse/infofrom/infofrom",
+    "pages/rentalHouse/adressfrom/adressfrom",
+    "pages/beingCustodian/beingCustodian",
+    "pages/myInfo/myInfo",
+    "pages/login/login",
+    "pages/login/forget",
+    "pages/login/register",
+    "pages/message/message",
+    "pages/im-chat/im-list",
+    "pages/im-chat/im-chat"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "凉安租房",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/im-chat/im-list",
+        "text": "消息",
+        "iconPath": "static/images/message.png",
+        "selectedIconPath": "static/images/message-selected.png"
+      },
+      {
+        "pagePath": "pages/goodHouse/goodHouse",
+        "text": "我的房源",
+        "iconPath": "static/images/house.png",
+        "selectedIconPath": "static/images/house-selected.png"
+      },
+      {
+        "pagePath": "pages/myInfo/myInfo",
+        "text": "我的",
+        "iconPath": "static/images/myInfo.png",
+        "selectedIconPath": "static/images/myInfo-selected.png"
+      }
+    ],
+    "selectedColor": "#1296db"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "凉安租房",
+  "compilerVersion": "2.6.1",
+  "usingComponents": {}
+}

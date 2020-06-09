@@ -1,0 +1,19 @@
+
+.input_wrap.data-v-d9da9020 {
+	width: 90%;
+	border-bottom: 1rpx solid rgba(0, 0, 0, 0.5);
+	margin: 10rpx auto;
+	padding: 20rpx;
+}
+.getadress.data-v-d9da9020 {
+	width: 35%;
+	border-radius: 10rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	border: 2rpx solid #007AFF;
+	z-index: 999999;
+	position: absolute;
+	right: 45rpx;
+	top: 65vh;
+}
+

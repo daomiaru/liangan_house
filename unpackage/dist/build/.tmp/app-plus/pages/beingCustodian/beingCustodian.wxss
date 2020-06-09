@@ -1,0 +1,33 @@
+
+.title {
+	font-family: yueyuan;
+	font-size: 50rpx;
+	font-weight: 700;
+	/* margin: 10upx auto;
+	width: 50%; */
+	text-align: center;
+	margin-top: 50rpx;
+}
+.xieyi {
+	width: 86%;
+	border: 1rpx dotted #007AFF;
+	border-radius: 20rpx;
+	margin: 50rpx auto;
+	margin-bottom: 100rpx;
+	padding: 20rpx;
+	font-family: yueyuan;
+	font-size: 30rpx;
+	font-weight: 600;
+	letter-spacing: 5rpx;
+}
+.button {
+	z-index: 999999;
+	text-align: center;
+	position: absolute;
+	left: 55%;
+	width: 45%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	bottom: 118rpx;
+}
+

@@ -1,0 +1,152 @@
+{
+    "name" : "凉安租房",
+    "appid" : "__UNI__17B8044",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "runmode" : "liberate",
+        /* 模块配置 */
+        "modules" : {
+            "Maps" : {},
+            "OAuth" : {},
+            "Payment" : {},
+            "Push" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {},
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wxc62423d1831730bf",
+                        "appsecret" : "06613343356df6580fd2de06cfdda2bb",
+                        "UniversalLinks" : "https://demo.dcloud.net.cn/ulink/"
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "8fa13d52dab0d05e8a6bbf7812d93a6e",
+                        "appkey_android" : "bf9cf0f7c1c8a32d8c2d09128dea76e9"
+                    }
+                },
+                "payment" : {
+                    "weixin" : {
+                        "appid" : "wxc62423d1831730bf",
+                        "UniversalLinks" : "https://demo.dcloud.net.cn/ulink/"
+                    }
+                },
+                "ad" : {},
+                "push" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png"
+                }
+            }
+        },
+        "nativePlugins" : {
+            "YOYO-JPushIM" : {
+                "channel" : "",
+                "app_key" : "5d3099ce37805b2a16492db3",
+                "__plugin_info__" : {
+                    "name" : "极光IM原生SDK整合 - Android/iOS - [试用版，仅用于自定义调试基座]",
+                    "description" : "即时通讯聊天 极光IM即时通讯",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=886",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : true,
+                    "bought" : 0,
+                    "pid" : "886",
+                    "parameters" : {
+                        "channel" : {
+                            "des" : "渠道，如：any channel",
+                            "key" : "YOYO-JPushIM:channel",
+                            "value" : ""
+                        },
+                        "app_key" : {
+                            "des" : "极光IM的key",
+                            "key" : "YOYO-JPushIM:app_key",
+                            "value" : ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "CC4BZ-NZDCO-MHZWQ-S3NPB-SVEI5-GNBK5"
+                }
+            }
+        }
+    }
+}

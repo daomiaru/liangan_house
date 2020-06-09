@@ -1,0 +1,18 @@
+
+.title.data-v-0684f786{
+	margin: 10rpx 30rpx;
+	font-size: 45rpx;
+	font-weight: bold;
+	font-family: 'yueyuan';
+}
+.account.data-v-0684f786{
+	margin: 10rpx 30rpx;
+	font-family: 'yueyuan';
+}
+.price.data-v-0684f786{
+	margin: 10rpx 30rpx;
+	font-size: 30rpx;
+	color: #F06C7A;
+	font-family: 'yueyuan';
+}
+

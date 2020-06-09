@@ -1,0 +1,32 @@
+
+.input_wrap.data-v-2a7489a0 {
+	position: relative;
+	width: 90%;
+	border-bottom: 1rpx solid rgba(0, 0, 0, 0.5);
+	margin: 10rpx auto;
+	padding: 20rpx;
+}
+.wrap1.data-v-2a7489a0::after {
+	content: '\2228';
+	font-size: 40rpx;
+	font-weight: bold;
+	position: absolute;
+	z-index: 999999;
+	right: 60rpx;
+	top: 80rpx;
+}
+.input_wrap>text.data-v-2a7489a0 {
+	font-size: 40rpx;
+}
+.getadress.data-v-2a7489a0 {
+	width: 35%;
+	border-radius: 10rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	border: 2rpx solid #007AFF;
+	z-index: 999999;
+	position: absolute;
+	right: 45rpx;
+	top: 65vh;
+}
+

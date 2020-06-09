@@ -1,0 +1,100 @@
+
+page {
+	background-color: #fff;
+}
+.common-search-form {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 88rpx;
+	
+	top: 0;
+	
+}
+.chat-list {
+	/* padding-top: 106upx; */
+}
+.scroll-do .items {
+	padding: 20rpx 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+.scroll-do .items>.image {
+	width: 90rpx;
+	height: 90rpx;
+	margin-right: 30rpx;
+	font-size: 0;
+	position: relative;
+}
+.scroll-do .items>.image .img,
+.scroll-do .items>.image image {
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 90rpx;
+}
+.scroll-do .items>.contents {
+	margin-right: 30rpx;
+	-webkit-flex: 1;
+	-webkit-box-flex: 1;
+	        flex: 1;
+}
+.scroll-do .items>.contents>.title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 28rpx;
+	color: #333333;
+}
+.scroll-do .items>.contents>.title>text {
+	color: #999;
+	font-size: 22rpx;
+}
+.scroll-do .items>.contents>view {
+	line-height: 1.8em !important;
+}
+.scroll-do .btn {
+	background: #FF3A30;
+	color: #FFF;
+	width: 130rpx;
+	height: 130rpx;
+	line-height: 130rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}
+.scroll-do .btn-first {
+	background: #3688FF;
+}
+.scroll-do .badge {
+	border-radius: 30rpx;
+	width: 30rpx;
+	height: 30rpx;
+	padding: 0;
+	line-height: 30rpx;
+	text-align: center;
+	font-size: 16rpx;
+	background: #FF0036;
+	position: absolute;
+	right: 0;
+	top: 2px;
+	z-index: 1;
+	background: #FF0036;
+	color: #FFFFFF;
+}
+.scroll-do .text-small {
+	width: 560rpx;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+

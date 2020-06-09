@@ -1,0 +1,2 @@
+setCssToHead([],undefined,{path:"./pages/rentalHouse/viewfrom/viewfrom.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/rentalHouse/viewfrom/viewfrom.wxml') } }));

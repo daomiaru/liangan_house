@@ -1,0 +1,1 @@
+<view class="content data-v-06f99794"><calendar vue-id="1" startDate="{{initStartDate}}" endDate="{{initEndDate}}" daysCount="{{daysCount}}" data-event-opts="{{[['^change',[['change']]]]}}" bind:change="__e" class="data-v-06f99794" bind:__l="__l"></calendar></view>
